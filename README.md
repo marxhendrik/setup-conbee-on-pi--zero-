@@ -40,6 +40,4 @@ ExecStart=/usr/bin/deCONZ -platform minimal --http-port=8080 --ws-port=8081 --au
 I am not sure the first line (pi is the user) is necessary but I copied it from somewhere and I am not going to do experiments now that it works ;D
 
 ## Logging In
-Now you should be able to go to https://phoscon.de/pwa/index.html and should be able to find your gateway and set it up.
-(I have no frigging idea why they make you connect to a public url to access a service that is hosted on your network and I thinkt is sucks)
-There is plenty of documentation mentioning the "old login page" under https://<YOUR-IP>/pwa/index.html but it simply does not seem to work
+Now you should be able to go to http://IP:8080/pwa/login.html
